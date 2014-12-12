@@ -19,7 +19,6 @@
 ***********************************************************************************************/
 
 /* 1. 通用 
------------------------------------------------------------------------------------------------
 ===============================================================================================*/
 body{
 	font-family:"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
@@ -34,9 +33,14 @@ image{border:0}
 
 .clean{ clear:both}
 .hidden{ display:none}
+::selection {
+   background:#4b4608;
+   color:#fffcdb}
+::-moz-selection {
+   background:#4b4608;
+   color:#fffcdb}
 
 /* 2. 首頁  
------------------------------------------------------------------------------------------------
 ===============================================================================================*/
 #bg { position: fixed; top: 0; left: 0; }
 .bgwidth { width: 100%; }
@@ -51,7 +55,7 @@ image{border:0}
 	top: 15px/*50%*/;
     left: 50%;
 	width:1240px;
-	height:758px;
+	/*height:745px;*/
 	background:url(../images/bg_box.png) repeat;
 	margin: /*-379px*/ 0 0 0 -620px;
 	-webkit-box-shadow: 0 0 20px #4E4E4E;
@@ -63,7 +67,7 @@ header{
 	display:block;
 	position:relative;
 	width:1240px;
-	height:99px}
+	height:89px/*99px*/}
 h1 a{
 	display:block;
 	position:absolute;
@@ -175,7 +179,6 @@ footer .txt_ad{
 	text-indent:-9999px}			
 	
 /* 3. 茶劇情  
------------------------------------------------------------------------------------------------
 ===============================================================================================*/
 #box_container{
 	display:block;
@@ -292,17 +295,84 @@ footer .txt_ad{
 	font-size:0.875em}
 .my_table td{ padding:3px}
 .my_table .tdtop{ vertical-align:top}
-.my_table .fu{ padding-right:7px}				 	 
-		
+.my_table .fu{ padding-right:7px}				 	 	
 			
 /* 4. 茶劇照 
------------------------------------------------------------------------------------------------
 ===============================================================================================*/
+#box_pageinfo .box_stills{
+	display:block;
+	width:763px;
+	padding-right:50px}
+#box_pageinfo .box_stills h4{
+	font-size:1em;
+	letter-spacing:1px;
+	margin:10px 0 0 0}
+#box_pageinfo .box_stills ul{ margin:0; padding:0}
+#box_pageinfo .box_stills li{
+	display: inline-block;
+	/*float:left;*/
+	width:110px;
+	height:110px;
+	background:#FAF7D5;
+	margin:15px;
+	list-style:none;
+	overflow:hidden;
+	padding:3px;
+	border:1px solid #8D980B}
+.subtitle{
+	display:block;
+	height:25px;
+	text-indent:-9999px;
+	background: url(../images/bg_subtitle.png) no-repeat}
+.st-01{
+	width:90px;
+	background-position: 0 0}
+.st-02{
+	width:90px;
+	background-position: 0 -25px;
+	margin-top:15px}
+.st-03{
+	width:242px;
+	background-position: 0 -50px}
+.st-04{
+	width:60px;
+	background-position: 0 -75px}
+.st-05{
+	width:60px;
+	background-position: 0 -100px}
+.st-06{
+	width:80px;
+	background-position: 0 -125px}
+.st-07{
+	width:60px;
+	background-position: 0 -150px}
+.st-08{
+	width:80px;
+	background-position: 0 -175px}
+.st-09{
+	width:60px;
+	background-position: 0 -200px}
+.st-10{
+	width:60px;
+	background-position: 0 -225px}
+.st-11{
+	width:60px;
+	background-position: 0 -250px}
+.st-12{
+	width:90px;
+	background-position: 0 -275px}
+.st-13{
+	width:135px;
+	background-position: 0 -300px}			
+.box_film{
+	display:block;
+	width:710px;
+	height:399px;
+	padding:15px 0 15px 24px}
+
 
 /* 5. 茶知識 
------------------------------------------------------------------------------------------------
 ===============================================================================================*/
 
 /* 6. 茶連結  
------------------------------------------------------------------------------------------------
-===============================================================================================*/		
+===============================================================================================*/	
