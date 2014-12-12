@@ -48,12 +48,12 @@ image{border:0}
 #box_index{
 	display:block;
 	position: absolute;
-	top: 50%;
+	top: 15px/*50%*/;
     left: 50%;
 	width:1240px;
 	height:758px;
 	background:url(../images/bg_box.png) repeat;
-	margin: -379px 0 0 -620px;
+	margin: /*-379px*/ 0 0 0 -620px;
 	-webkit-box-shadow: 0 0 20px #4E4E4E;
     -moz-box-shadow: 0 0 20px #4E4E4E;
     box-shadow: 0 0 20px #4E4E4E}
@@ -79,15 +79,15 @@ h1 a{
 	display:block;
 	position:relative;
 	width:1240px;
-	height:613px}
+	height:600px}
 #box_content h2{
 	display:block;
 	position:absolute;
 	top:35px;
 	left:32px;
 	z-index:99;
-	width:542px;
-	height:176px;
+	width:544px;
+	height:179px;
 	text-indent:-9999px;
 	background:url(../images/pic_h2.png) no-repeat}
 #box_content h3{
@@ -105,7 +105,7 @@ h1 a{
 	position:relative;
 	float:right;
 	width:915px;
-	height:613px;
+	height:600px;
 	background:url(../images/pic_index.jpg) no-repeat}
 #box_file a{
 	display:block;
@@ -124,7 +124,7 @@ h1 a{
 	display:block;
 	float:left;
 	width:325px;
-	height:613px}
+	height:600px}
 #box_menu ul{
 	display:block;
 	width:321px;
