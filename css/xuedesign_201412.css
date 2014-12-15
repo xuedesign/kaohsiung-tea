@@ -373,25 +373,62 @@ footer .txt_ad{
 	height:399px;
 	padding:15px 0 15px 24px}
 
-
 /* 5. 茶知識 
 ===============================================================================================*/
+#box_process li{
+	list-style:none;
+	display:block;
+	position:relative;
+	width:650px;
+	min-height:100px;
+	border:3px solid #8D980B;
+	margin-bottom:30px}
+#box_process .arrow_b_int{
+	width:0px;
+	height:0px;
+	border-width:15px;
+	border-style:solid;
+	border-color:#8D980B transparent transparent transparent ;
+	position:absolute;
+	bottom:-30px;
+	left:290px}
+#box_process .arrow_b_out{
+	width:0px;
+	height:0px;
+	border-width:15px;
+	border-style:solid;
+	border-color:#FAF7D5 transparent transparent transparent;
+	position:absolute;
+	bottom:-25px;
+	left:290px}
+#box_process .photo_process{
+	display:block;
+	position:absolute;
+	top:0;
+	right:0;
+	width:125px;
+	height:125px}
+#box_process .txt_padrig{ height:75px; padding-right:115px}			
+#box_process h5{ margin:5px 0 0 5px; padding:0}
+#box_process p{
+	font-size:0.938em;
+	line-height:25px;
+	padding-left:25px;
+	margin:5px 25px 15px 0}	
 
 /* 6. 茶連結  
 ===============================================================================================*/
-#box_link{}
 #box_link ul{
 	display:block;
 	padding:0 50px 30px 0}
 #box_link li{
 	display: inline-block;
-	width:330px; 
+	width:340px; 
 	font-size:0.938em;
 	line-height:25px;
 	padding:15px 0;
-	margin:0 20px 0 25px;
+	margin:0 10px 0 25px;
 	border-bottom:1px dashed #4b4608}
-#box_link li a:link {text-decoration:none; color:#8D980B}
+#box_link li a:link {text-decoration:none; color:#645E0D}
 #box_link li a:visited {text-decoration:none; color:#8c8c8c}
 #box_link li a:hover {text-decoration:none; color:#F50}
-	
