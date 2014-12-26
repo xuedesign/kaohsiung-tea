@@ -366,12 +366,20 @@ footer .txt_ad{
 	background-position: 0 -300px}		
 .st-14{
 	width:135px;
-	background-position: 0 -325px}		
+	background-position: 0 -325px}
+.st-15{
+	width:242px;
+	background-position: 0 -350px}			
 .box_film{
 	display:block;
 	width:710px;
 	height:399px;
 	padding:15px 0 15px 24px}
+.box_film-02{
+	display:block;
+	width:657px;
+	height:369px;
+	padding:15px 0 30px 40px}	
 
 /* 5. 茶知識 
 ===============================================================================================*/
