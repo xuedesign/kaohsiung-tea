@@ -15,7 +15,8 @@
 		3. 茶劇情
 		4. 茶劇照
 		5. 茶知識
-		6. 茶連結		
+		6. 茶連結
+        7. 測試站標籤
 ***********************************************************************************************/
 
 /* 1. 通用 
@@ -24,7 +25,9 @@ body{
 	font-family:"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
 	font-size:100%;
 	line-height:22px;
-	color:#4b4608}
+	color:#4b4608;
+    background: url(../images/bg_site.jpg) no-repeat fixed;
+    background-size: cover}
 a:link {text-decoration:underline; color:#00adee}
 a:visited {text-decoration:underline; color:#8c8c8c}
 a:hover {text-decoration:none; color:#F50}
@@ -446,3 +449,37 @@ footer .txt_ad{
 #box_link li a:link {text-decoration:none; color:#645E0D}
 #box_link li a:visited {text-decoration:none; color:#8c8c8c}
 #box_link li a:hover {text-decoration:none; color:#F50}
+
+/*
+=====================================
+測試站標籤
+=====================================
+*/
+#myTag{
+    position: fixed;
+    top: -120px;
+    right: 0;
+    z-index: 990;
+    border-color: transparent;
+    border-left-color: rgba(83, 78, 22, 0.8);
+    border-style: solid solid solid solid;
+    border-width: 50px;
+    height: 300px;
+    width: 65px;
+    transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg)
+    /*-webkit-box-shadow: 5px 5px 20px #8e8e8e;
+    -moz-box-shadow: 5px 5px 20px #8e8e8e;
+    box-shadow: 5px 5px 20px #8e8e8e;*/
+}
+#myTag p{
+    position: absolute;
+    top: 120px;
+    right: 52px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 22px;
+    text-align: center;
+    transform: rotate(91deg);
+    -ms-transform: rotate(45deg)
+}
